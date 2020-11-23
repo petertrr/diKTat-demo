@@ -3,8 +3,8 @@ import org.springframework.boot.gradle.tasks.bundling.BootJar
 plugins {
     java
     `maven-publish`
-    kotlin("multiplatform") version "1.4.10"
-    kotlin("plugin.spring") version "1.4.10"
+    kotlin("multiplatform") version "1.4.20"
+    kotlin("plugin.spring") version "1.4.20"
     id("org.springframework.boot") version "2.3.1.RELEASE"
 }
 
@@ -12,7 +12,7 @@ repositories {
     jcenter()
 }
 
-val kotlinVersion = "1.4.10"
+val kotlinVersion = "1.4.20"
 val diktatVersion = "0.1.3"
 val ktlintVersion = "0.39.0"
 val springBootVersion = "2.3.1.RELEASE"
